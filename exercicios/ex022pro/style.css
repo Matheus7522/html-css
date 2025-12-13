@@ -1,0 +1,100 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'idroid';
+    src: url('fontes/idroid.otf');
+}
+
+header {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(#3cd983, #14492b); 
+    padding-top: 2px;
+    margin: -8px;
+    color: white;
+    
+}
+
+header > h1 {
+    font-size: 50px;
+    text-align: center;
+}
+
+header > p {
+    font-weight: 100;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+header ul a {
+    color: white;
+    text-decoration: none;
+    display: inline-flex;
+    gap: 0px;
+    padding: 10px;
+}
+
+header ul a:hover  {
+    color: #000000;
+    background-color: #3cd983c4;
+    border-radius: 10px;
+
+}
+
+h1.idroid1 {
+    font-family: 'idroid', sans-serif;
+    color: #14492b;
+}
+
+.idroid2 {
+    background-color: #3cd98385;
+    font-family: 'idroid', sans-serif;
+    color: #14492b;
+    font-size: 26px;
+}
+
+div  {
+    border-style: solid;
+    margin: 96px;
+    margin-top: -18px;
+    margin-right: 300px;
+    margin-left: 300px;
+    padding-left: 15px;
+}
+
+div > p > span {
+    color: #14492b;
+}
+
+div > p {
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+
+div img {
+    padding-left: 130px;
+}
+
+div > p > a {
+    color: #14492b;
+    text-decoration: none;
+}
+
+div > p > a :hover {
+    color: #000000d7;
+    text-decoration: underline;
+    font-style: italic;
+    background-color: #3cd983a9;
+}
+
+div img#IrinaBlok {
+    inline-size: 1025px;
+    padding-left: 1px;
+}
+
+div img#android3 {
+    inline-size: 450px;
+    padding-left: 280px;
+}
